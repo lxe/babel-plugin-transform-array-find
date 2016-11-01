@@ -6,8 +6,8 @@ module.exports = function (opts) {
           var obj = path.node.object
           var prop = path.node.property
 
-          if (obj.name === 'Array' && prop.name === 'from') {
-            path.replaceWith(state.addImport('array-from', 'default'))
+          if (obj.name === 'Array' && prop.name === 'find') {
+            path.replaceWith(state.addImport('array-find', 'default'))
           }
         }
       }

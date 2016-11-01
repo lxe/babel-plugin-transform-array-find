@@ -1,3 +1,3 @@
-# babel-plugin-transform-array-from
+# babel-plugin-transform-array-find
 
-> Replace `Array.from` by `require('array-from')`.
+> Replace `Array.from` by `require('array-find')`.
